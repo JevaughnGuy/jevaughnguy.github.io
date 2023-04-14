@@ -19,6 +19,7 @@ html, body{
 }
 body{
     text-align:center;
+    
 }
 h1{
     font-size:36px;
@@ -29,4 +30,12 @@ img{
     border-radius:50%;
     width:400px;
     height:400px;
+}
+
+ .hero{
+    outline:1px solid blueviolet;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
