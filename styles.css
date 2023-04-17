@@ -98,3 +98,14 @@ img{
  .list li{
     display:inline;
  }
+ .blocklist > li{
+    display:flex;
+    justify-content:center;
+
+ }
+ .blocklist > ul{
+    width: 150px;
+    height: 150px;
+
+ }
+ 
