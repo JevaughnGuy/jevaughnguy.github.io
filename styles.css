@@ -37,6 +37,14 @@ h1 sub:before{
 h1 sub:after{
     content:")";
 }
+section{
+    border-top:2px dashed #eee;
+    padding:50px 0;
+    max-width:800px;
+    margin:0 auto;
+   
+}
+
 img{
     border-radius:50%;
     width:400px;
@@ -49,6 +57,8 @@ img{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    border:0;
+    padding:0;
 }
 .hero img{
     width:100%;
@@ -70,6 +80,9 @@ img{
 .headshot:hover{
     transform:rotate(360deg);
     box-shadow: 0px 0px 100px 50px #fc0;
+}
+.headshot img{
+    transition:opacity 1s;
 }
  .headshot:hover img{
     opacity:0;
