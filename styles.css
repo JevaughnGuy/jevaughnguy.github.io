@@ -37,6 +37,13 @@ h1 sub:before{
 h1 sub:after{
     content:")";
 }
+h2{
+    font-size:24px;
+    line-height:40px;
+    font-weight:bold;
+
+}
+
 section{
     border-top:2px dashed #eee;
     padding:50px 0;
@@ -74,7 +81,7 @@ img{
     margin-right: auto;
     transition:transform 1s;
     transition:transform 1s, box-shadow 1s;
-    background-image:url("Jevaughn.jpeg");
+    background-image:url("images/Jevaughn.jpeg");
     background-size: contain;
 }
 .headshot:hover{
@@ -86,4 +93,8 @@ img{
 }
  .headshot:hover img{
     opacity:0;
+ }
+
+ .list li{
+    display:inline;
  }
