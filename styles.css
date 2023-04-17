@@ -58,6 +58,10 @@ img{
     height:400px;
 }
 
+address{
+    white-space:pre-line;
+}
+
  .hero{
     outline:1px solid blueviolet;
     height:100vh;
