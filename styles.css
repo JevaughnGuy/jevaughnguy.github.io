@@ -46,7 +46,7 @@ h2{
 }
 
 section{
-    border-top:2px dashed #eee;
+    border-top:2px dashed black;
     padding:50px 10px;
     max-width:800px;
     margin:0 auto;
@@ -100,7 +100,7 @@ address{
     margin-right: auto;
     transition:transform 1s;
     transition:transform 1s, box-shadow 1s;
-    background-image:url("Images/Jevaughn.jpeg");
+    background-image:url("images/jevaughn.jpeg");
     background-size: contain;
 }
 .headshot:hover{
