@@ -79,7 +79,7 @@ address{
  .hero{
     outline:1px solid antiquewhite;
     height:100vh;
-    min-height:400px;
+    min-height:500px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -132,6 +132,7 @@ address{
     width:100%;
     display:flex;
     position:fixed;
+    z-index:9999;
  }
  .nav li{
     list-style-type:none;
