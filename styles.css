@@ -100,7 +100,7 @@ address{
     margin-right: auto;
     transition:transform 1s;
     transition:transform 1s, box-shadow 1s;
-    background-image:url("images/jevaughn.jpeg");
+    background-image:url("Images/Jevaughn.jpeg");
     background-size: contain;
 }
 .headshot:hover{
