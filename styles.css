@@ -7,7 +7,8 @@
     font-family:inherit;
     text-decoration:inherit;
     line-height:inherit;
-    color:inherit;
+    color:#444;
+    background-color:antiquewhite;
 }
 html, body{
     font-family: "Helvetica Neue", Helvetica, 
@@ -51,6 +52,19 @@ section{
     margin:0 auto;
    
 }
+section:target h1{
+    background-color:burlywood;
+    animation:flash 1s infinite linear;
+}
+@keyframes flash{
+    from{
+        text-shadow: 5px 5px 0px #fd6
+                     -5px -5px 0px #fd6;
+    }
+    to{
+        text-shadow: 0px 0px 0px #fd6;
+    }
+}
 
 img{
     border-radius:50%;
@@ -63,7 +77,7 @@ address{
 }
 
  .hero{
-    outline:1px solid blueviolet;
+    outline:1px solid antiquewhite;
     height:100vh;
     display:flex;
     flex-direction:column;
@@ -112,4 +126,25 @@ address{
     height: 150px;
 
  }
+
+ .nav{
+    width:100%;
+    display:flex;
+    position:fixed;
+ }
+ .nav li{
+    list-style-type:none;
+    flex-grow:1;
+ }
+ .nav li a{
+    display:block;
+    line-height:50px;
+    background-color:burlywood;
+    color:#666;
+    text-shadow:1px 1px 0px black;
+ }
+ .nav li a:hover{
+    background-color:#fa0;
+ }
+ 
  
